@@ -1,0 +1,244 @@
+@media screen and (min-width:401px) and (max-width: 1024px)
+{
+    body{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 30px;
+    }
+
+    main{
+        min-height: 1024px;
+        margin-top: 20px;
+    }
+
+    div#contenedor{
+        width: 100%;
+        border: 0px;
+        margin-top: 0px;
+    }
+   
+
+    .flex-container-tablon-servicios > div{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .flex-container-perfil-usuario > div{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .flex-container-perfil-usuario img {
+        width: 80%;
+    }
+
+    button, a.boton {
+        padding: 8px 25px;
+        font-size: 30px;
+    }
+
+    fieldset{
+        width: 100%;
+    }
+
+    fieldset input, label {
+        margin:10px;
+    }
+
+    fieldset div {
+        clear: left;
+        padding: 20px 0px;
+    }
+
+    legend{
+        font-weight: bold;
+    }
+    input {
+
+        width: 50%;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .flex-container-tablon-servicios a {
+        font-size: 30px;
+    }
+
+    .material-icons.md-24 { 
+        font-size: 70px;
+    }
+
+    .flex-container-tablon-servicios button {
+    width: 50%;
+    height: 70px;
+    font-size: 40px;
+    }
+
+    #logotipo {
+        width: 300px;
+        height: 120px;
+    }
+
+    #menuDesplegable{
+        display: block;
+    }
+
+    #menu li a {
+        /*display: none;*/
+        padding: 1px 52px;
+        font-size: 30px;
+        border-radius: 100px;
+    }
+
+    #menu{
+        background-color: white;
+    }
+    .contenedor-enlaces li{
+        margin-left: 2%;
+    }
+
+    .contenedor-enlaces li a {
+        font-size: 21px;
+        padding: 10px;
+    }
+
+    footer{
+        height: 50px;
+    }
+
+    #sidebarDer h4{
+        display:none;
+    }
+
+    #editarPerfil li a {
+        padding: 15px 0px;
+        font-size: 20px;
+        background-color: #4285F4;
+        color:white;
+        height: 30px;
+        margin-top: 20px;
+    }
+
+    aside {
+        height: 400px;
+    }
+
+    #tituloServicios{
+        font-size: 40px;
+    }
+    
+    
+    #descripcionServicios{
+        font-size: 30px;
+    }
+    
+    #categoríaServicios{
+        font-size: 25px;
+    }
+    
+    #ofertanteServicio{
+        font-size: 30px;
+        text-align: left;
+    }
+    
+    #contenedorUsuarioLike{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #barraMenu{
+        display: none;
+    }
+
+    #editarPerfil{
+        display: none;
+    }
+    
+    #registrate{
+        
+        font-size: 30px;
+        
+    }
+
+    textarea {
+        width: 50%;
+        height: 200px;
+        font-size: 20px;
+    }
+
+    .contenedorEditarPerfil {
+        width: 100%;
+    }
+
+    #formEditarPerfil {
+        width: 95%;
+    }
+    
+    #formEditarCuenta {
+        width: 95%;
+    }
+        
+    .contenedorEditarPerfil fieldset{
+        margin-top: 30px;
+    }
+
+    #redirectEditarCuenta, #redirectEditarPerfil {
+        display:inline ;
+        margin: 10px;
+    }
+    
+    .blueButton{
+        font-size: 30px;
+    }
+
+    select {
+        width: 50%;
+        font-size: 30px;
+        height: 40px;
+    }
+
+    .pill-nav a {
+        margin: 20px;
+    }
+
+    div.contenedor-enlaces {
+        width: 100%;
+        margin-left:0px;
+    }
+
+    .flex-container-tablon-foro .cartaForo {
+        width: 100%;
+    }
+
+    .pill-nav a {
+        display: inline-block;
+        color: black;
+        background-color: #ddd;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        border-radius: 5px;
+        width: 14%;
+        padding: 15px;
+    }
+
+    #categoríaMisServicios {
+        font-size: 20px;
+    }
+
+    #comentario {
+        width: 99%;
+        margin-left: 0;
+        height: 35px;
+    }
+
+    #chat {
+        margin-left: 5px;
+        text-align: left;
+        width: 87%;
+    }
+}

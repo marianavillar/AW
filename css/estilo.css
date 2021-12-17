@@ -1,0 +1,1024 @@
+body {
+	background-color: white;
+	font-family:Verdana;
+}
+
+ul{
+	list-style-type: none;
+}
+h1, h2, h3, h4{
+	color:#36486b
+}
+
+div#contenedor {
+	width: 100%;
+	margin: auto;
+	background-color: white;
+	margin-top: 30px;
+}
+
+
+header {
+	padding: 30px;
+	height: 100px;
+	background-color: white;
+	color: black;
+}
+
+header a, header a:visited {
+	color:black;
+	font-weight: bold;
+	text-decoration: none;
+	
+} 
+
+header a:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 6px;
+	border: none;
+	color: black;
+	padding: 4px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: underline;
+	color: white;
+	background-color: #4285F4;
+} 
+h1.bienvenida{
+	text-align:center;
+	font-size: 50px;
+}
+div.container-info{
+    display: block;
+	max-width: 1032px!important;
+    margin: auto;
+    padding: 0px 15px;
+    transition: padding-left 300ms;
+	text-align:justify;
+}
+p.info{
+	margin-top: 21px;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+nav {
+	padding: 1px;
+	background-color: #F7F7F7;
+}
+
+nav a, nav a:visited {
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+} 
+
+nav a:hover {
+	color: red;
+	text-decoration: underline;
+} 
+
+
+aside {
+	padding: 10px;
+	float: right;
+	width: 151px;
+	height: 200px;
+}
+
+main {
+	padding: 10px;
+	float: left;
+	min-height: 600px;
+	width: 80%;
+	margin-top: 20px;
+	background-color: white;
+}
+
+footer	 {
+	clear: both;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	height: 40px;
+	width: 100%;
+	opacity: 0.6;
+	
+}
+
+div.saludo {
+	width: 100%;
+	text-align: right;
+	height: 50px;
+}
+
+#logotipo {
+	float: left;
+	width: 200px;
+	height: 100px;
+}
+
+#login-cabecera{
+	color:black;
+	float:right;
+	border-radius: 5px;
+	background-color: white;
+	margin-top: 40px;
+}
+
+div.menuPrincipal {
+	width: 50%;
+	text-align: center;
+}
+
+div.cartaRol {
+	width: 50%;
+	text-align: center;
+}
+
+
+fieldset {
+	border: 1px solid;
+	border-color: #dddddd;
+	border-radius: 5px;
+	width: 50%;
+	margin: 0 auto;
+	background-color: #F7F7F7;
+	margin-top: 20px;
+}
+
+legend {
+	color: #fff;
+	background: #4285F4;
+	border: 1px solid black;
+	padding: 2px 6px;
+} 
+
+label {
+	width: 35%;
+	float: left;
+	text-align: left;
+	margin-right: 0.5em;
+	display: block;
+	margin: 5px;
+}
+
+input[type='text'] {
+	float: left;
+	display: block;
+	width: 50%;
+}
+
+.configurarPerfil {
+	list-style-type: none;
+}
+
+fieldset div {
+	clear: left;
+}
+
+fieldset input {
+	width: 50%;
+	margin: 5px;
+}
+
+button, a.boton {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 6px;
+	border: none;
+	color: black;
+	padding: 4px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	font-weight: bold;
+	color: white;
+	background-color: #4285F4;
+}
+
+a.boton{
+	background-color: rgb(239, 239, 239);
+	padding: 4px 20px;
+}
+
+.inline {
+	display: inline;
+}
+
+a.deshabilitado {
+	color: rgba(16, 16, 16, 0.3);
+}
+
+#menu ul {
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+
+#menu  li {
+	float: left;
+}
+
+#menu li a {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 6px;
+	border: none;
+	color:#36486b;
+	padding: 1px 153px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+#menu  li a:hover {
+  	color: white;
+    background-color: #4285F4;
+}
+
+#editarPerfil ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #F7F7F7;
+}
+
+#misServiciosLista{
+	list-style-type: none;
+}
+
+
+
+#editarPerfil li a {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 6px;
+	border: none;
+	color: black;
+	padding: 5px 0px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+#editarPerfil li a:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	color: #4285F4;
+}
+
+div.contenedor-enlaces{
+    width:50%;
+	margin-left: 25%;
+    float: left;
+    text-align: left;
+    font-size: 15px;
+	border-bottom: red 4px solid;
+}
+
+div.enlace-pie{
+    display: inline;  
+	
+}
+
+.contenedor-enlaces ul {
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  }
+
+.contenedor-enlaces li {
+    float: left;
+	margin: 20px;
+}
+
+.contenedor-enlaces li a {
+    display: inline;
+    color: #36486b;
+    text-align: center;
+    padding: 11px;
+    text-decoration: none;
+}
+
+.contenedor-enlaces  li a:hover {
+    background-color: #36486b;
+	color:white;
+}
+
+.error {
+	color:red;
+	display: block;
+}
+
+.cartaRol {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 40%;
+}
+
+.cartaRol:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cartaUsuario {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 40%;
+}
+  
+.cartaUsuario:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+.contenedor-carta {
+	padding: 2px 16px;
+}
+
+.contenedorInfoRol {
+	padding: 2px 16px;
+	background-color:Tomato;
+}
+
+textarea{
+	width: 290px;
+	height: 100px;
+	margin: 10px;
+	font-family:Verdana;
+}
+
+.flex-container-perfil-usuario {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+.flex-container-perfil-usuario > div {
+	width: 31%;
+	margin: 10px;
+	border: 0.2px #36486b;
+	text-align: center;
+	background-color: whitesmoke; 
+  }
+
+.flex-container-perfil-usuario img {
+	width: 100%;
+}
+
+.flex-container-tablon-roles {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-container-tablon-roles > div {
+	width: 23%;
+	margin: 10px;
+	border: 0.2px #36486b;
+	font-size: 19px;
+	background-color: whitesmoke; 
+}
+
+  
+.flex-container-tablon-servicios {
+	display: flex;
+	flex-wrap: wrap;
+}
+  
+.flex-container-tablon-servicios > div {
+	width: 23%;
+	margin: 10px;
+	border: 0.2px #36486b;
+	font-size: 19px;
+	background-color: whitesmoke; 
+}
+
+#nombreRol{
+	font-weight: bold;
+}
+
+#userRol{
+	font-size: 15px;
+}
+
+#adminRol{
+	font-size: 15px;
+}
+
+#tituloServicios{
+	font-weight: bold;
+}
+
+
+#descripcionServicios{
+	font-size: 15px;
+}
+
+#categoríaServicios{
+	margin-top: 50px;
+	font-size: 12px;
+	color: #36486b;
+	text-align: right;
+}
+
+#ofertanteServicio{
+	width: 50%;
+}
+
+#contenedorUsuarioLike{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#like{
+	width: 50%;
+	text-align: right;
+}
+
+#contenedorRol{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-container-tablon-servicios img {
+	width: 100%;
+	margin-top: 5px;
+}
+
+.flex-container-tablon-servicios a {
+	color: #36486b;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.flex-container-tablon-servicios a:hover {
+	background-color: #4285F4;
+	color: white;
+}
+
+.flex-container-tablon-servicios button:hover {
+	background-color: white;
+	color: #4285F4;
+}
+
+#buttonSolicitarContratacion:hover {
+	background-color: #4CAF50;
+	color: white;
+}
+
+
+#buttonGuardarFavoritos {
+	background-color: whitesmoke;
+	color: #d64161;
+	box-shadow: 0 0px 0px 0 , 0 0px 0px 0;
+	padding:0px;
+	width: 20%;
+}
+
+#buttonGuardarFavoritos:hover {
+	background-color: #d64161;
+	color: white;
+}
+
+.flex-container-tablon-servicios button {
+	width: 50%;
+}
+
+.material-icons.md-18 { 
+	font-size: 35px;
+}
+
+#menuDesplegable{
+	color:#36486b;
+	display: none;
+}
+
+#menuDesplegable:visited{
+	color:#36486b;
+	display: none;
+}
+
+#barraMenu{
+	display: inline;
+}
+
+#editarPerfil{
+	display: inline;
+}
+
+#registrate{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 6px;
+	border: none;
+	color: black;
+	padding: 4px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	font-weight: bold;
+	color: white;
+	background-color: #4285F4;
+}
+
+.contenedorEditarPerfil {
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.contenedorEditarPerfil fieldset{
+	width: 90%;
+}
+
+#formEditarPerfil {
+    width: 50%;
+}
+
+#formEditarCuenta {
+    width: 50%;
+}
+
+.blueButton{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 6px;
+	border: none;
+	color: black;
+	padding: 4px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	font-weight: bold;
+	color: white;
+	background-color: #4285F4;
+}
+
+#redirectEditarCuenta, #redirectEditarPerfil {
+	display:none ;
+}
+
+.pill-nav a {
+  display: inline-block;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+  width: 8%;
+}
+
+.pill-nav a.active {
+  background-color: #36486b;
+  color: white;
+  border-left: #4285F4 4px solid;
+}
+
+.foro{
+	text-align: center;
+}
+
+.cartaForo p, .cartaForo h1{
+	margin: 15px;
+	text-align: left;
+	text-decoration: none;
+	color: #4285F4;
+}
+
+.cartaForo a{
+	text-decoration: none;
+}
+  
+.flex-container-tablon-foro .cartaForo:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	opacity:1;
+}
+
+.flex-container-tablon-foro .cartaForo {
+    width: 48%;
+	margin: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	background-color: #ffeead;
+	opacity: 0.7;
+	padding: 1px;
+	
+}
+
+.flex-container-tablon-foro a {
+	color: #36486b;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.flex-container-tablon-foro a:hover {
+	color: white;
+}
+
+.flex-container-tablon-foro button:hover {
+	background-color: white;
+	color: #4285F4;
+}
+
+.flex-container-tablon-foro {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	border-top: #ffeead 2px solid;
+}
+
+.flex-container-tablon-mensajes-foro{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	border-top: #ffeead 2px solid;
+}
+
+.flex-container-tablon-mensajes-foro .cartaForo:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	opacity:1;
+}
+
+.flex-container-tablon-mensajes-foro .cartaForo {
+    width: 100%;
+	margin: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	background-color: #ffeead;
+	opacity: 0.9;
+	padding: 1px;
+	
+}
+
+.flex-container-tablon-mensajes-foro a {
+	color: #36486b;
+	padding: 4px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.flex-container-tablon-mensajes-foro button {
+	display: inline;
+}
+
+
+.flex-container-tablon-mensajes-foro a:hover {
+	color: white;
+}
+
+.flex-container-tablon-mensajes-foro button:hover {
+	background-color: white;
+	color: #4285F4;
+}
+
+.btnGroup div {
+	cursor: pointer; /* Pointer/hand icon */
+	float: left; /* Float the buttons side by side */
+  }
+  
+
+
+  
+.flex-container-tablon-mis-servicios{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	border-top: #ff6f69 2px solid;
+}
+
+.flex-container-tablon-mis-servicios .cartaForo:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	opacity:1;
+}
+
+.flex-container-tablon-mis-servicios .cartaForo {
+    width: 100%;
+	margin: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	background-color: #9ce7e4;
+	opacity: 0.9;
+	padding: 1px;
+	
+}
+
+.flex-container-tablon-mis-servicios a {
+	color: #36486b;
+	padding: 4px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.flex-container-tablon-mis-servicios button {
+	display: inline;
+}
+
+
+.flex-container-tablon-mis-servicios a:hover {
+	color: white;
+}
+
+.flex-container-tablon-mis-servicios button:hover {
+	background-color: white;
+	color: #4285F4;
+}
+
+.flex-container-tablon-mis-servicios p {
+	color: #36486b;
+}
+
+
+#categoríaMisServicios{
+	margin-top: 10px;
+	font-size: 12px;
+	color: #36486b;
+	text-align: right;
+}
+
+#administrarLista {
+    width: 47%;
+    margin-top: 3px;
+}
+
+.cartaResena{
+	width: 100%;
+	margin-top: 5px;
+	border-bottom: red 2px solid;
+}
+
+.cartaResena {
+	text-align: left;
+	color : #36486b;
+	
+}
+
+.cartaResena a{
+	text-align: left;
+	color : #ff6f69;
+	text-decoration: none;
+	margin-left: 5px;
+}
+
+
+#fechaResena{
+	margin-top: 50px;
+	font-size: 12px;
+	color: #ff6f69;
+	text-align: right;
+}
+
+
+.cartaUsuarioR {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 100%;
+}
+  
+.cartaUsuarioR:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#imgChat{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%
+}
+
+#notiChat{
+	text-align: right;
+	width: 40px;
+	height: 40px;
+}
+
+#chat{
+	margin-left:5px;
+	text-align: left;
+	width: 20%;
+}
+
+
+.flex-container-mensajes-chats{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	border-top: #ffeead 2px solid;
+}
+
+.flex-container-mensajes-chats .cartaForo:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	opacity:1;
+}
+
+.flex-container-mensajes-chats .cartaForo {
+    width: 50%;
+	margin: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	background-color: #ffeead;
+	opacity: 0.9;
+	padding: 1px;
+	
+}
+
+#userMe{
+	margin-left: 50%;
+	background-color: #d5f4e6;
+}
+
+#userYou{
+	background-color:#f0f0f0;
+}
+
+#comentario {
+    width: 25%;
+    margin-left: 65%;
+    height: 25px;
+}
+
+#containerChats{
+	width: 90%;
+}
+
+#stars{
+	
+box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0);
+border-radius: 0px;
+color: black;
+padding: 0px 0px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 30px;
+margin: 0px 0px;
+    margin-left: 0px;
+transition-duration: 0.4s;
+cursor: pointer;
+font-weight: bold;
+color: white;
+background-color: #ff6f69;
+margin-left: 5px;
+
+border: 0;
+background: transparent;
+font-size: 1.5em;
+margin: 0;
+padding: 0;
+float: right;
+	
+}
+
+#stars:hover,
+#stars:hover + #stars,
+#stars:hover + #stars + #stars,
+#stars:hover + #stars + #stars + #stars, 
+#stars:hover + #stars + #stars + #stars + #stars{
+  color: yellow;
+}
+
+#chatnombre{
+	color: #36486b;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+#chatnombre:hover {
+	background-color: #4285F4;
+	color: white;
+}
+
+#chat2{
+	text-align: left;
+	width: 65%;
+}
+
+.notification .bag {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 5px 10px;
+	border-radius: 50%;
+	background: rgb(16, 243, 92);
+	color: white;
+  }
+
+  .notification {
+	color: white;
+	text-decoration: none;
+	padding: 15px 26px;
+	position: relative;
+	display: inline-block;
+	border-radius: 2px;
+  }
+
+
+  #aNotification:hover{
+	background-color: whitesmoke;
+  }
+
+  #fechaMensajesChat{
+	font-size: 12px;
+	color: #36486b;
+	text-align: right;
+}
+
+#lista2 {
+    counter-reset: li; 
+    list-style: none; 
+    *list-style: decimal; 
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+#lista2 ol {
+    margin: 0 0 0 2em; 
+}
+
+#lista2 li{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;   
+}
+
+#lista2 li:hover{
+    background: #eee;
+}
+
+#lista2 li:hover:before{
+    transform: rotate(360deg);  
+}
+
+#lista2 li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+#imgInfo {
+    width: 50%;
+	height: 300px;
+    margin-left: 10px;
+}
